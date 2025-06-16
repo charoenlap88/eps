@@ -4,8 +4,8 @@ import { getSession } from "next-auth/react";
 const s3Client = new S3Client({
   region: "ap-southeast-2", // ใช้ Region ของ S3 Bucket (ของคุณคือ Sydney)
   credentials: {
-    accessKeyId: 'AKIATOFZGHSDLMOVUEIS',
-    secretAccessKey: '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',
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
   },
 });
 
