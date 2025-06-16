@@ -1,0 +1,48 @@
+body {
+  margin:0;
+}
+.img-responsive {
+  width: 100%;
+  max-width: 169px;
+  height: auto;
+}
+#card .ant-card-body span svg{
+  font-size:60px;
+}
+
+header {
+  background: #4472c4;
+}
+
+ul#menuside li ul {
+  background: #6e97e1;
+}
+
+:where(.css-dev-only-do-not-override-1o0mjj6).ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-submenu-title:active, :where(.css-dev-only-do-not-override-1o0mjj6).ant-menu-dark>.ant-menu:not(.ant-menu-horizontal) .ant-menu-submenu-title:active, :where(.css-dev-only-do-not-override-1o0mjj6).ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):active, :where(.css-dev-only-do-not-override-1o0mjj6).ant-menu-dark>.ant-menu:not(.ant-menu-horizontal) .ant-menu-item:not(.ant-menu-item-selected):active, :where(.css-dev-only-do-not-override-1o0mjj6).ant-menu-dark .ant-menu-item-selected, :where(.css-dev-only-do-not-override-1o0mjj6).ant-menu-dark>.ant-menu .ant-menu-item-selected {
+  background: #19499C;
+}
+/* #4472c4 */
+/* #19499C */
+.custom-upload .ant-upload-list-item,
+.custom-upload .ant-upload-list-item-done {
+  display: none; /* Hide the element */
+}
+.ant-upload-list-item-container {
+  display: none;
+}
+
+.ant-transfer-list {
+  width: 50% !important;
+  height: 50vh !important;
+}
+.ant-card .ant-card-body {
+  padding: 15px;
+  border-radius: 0 0 8px 8px;
+}
+.ant-btn .ant-card {
+  height: 100%;
+}
+.ant-menu-title-content {
+  color:white;
+  font-weight: bold;
+}
