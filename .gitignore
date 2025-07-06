@@ -9,6 +9,7 @@ public/upload/diagram/*
 public/upload/lfp/*
 public/upload/projector/*
 public/pdf/*
+public/
 # testing
 /coverage
 
@@ -49,3 +50,4 @@ package.json
 public
 .vs
 cmd
+test_db.js
